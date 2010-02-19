@@ -1,0 +1,42 @@
+\documentclass[a4paper,11pt,titlepage]{article}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fontenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{geometry}
+\usepackage{eurosym}
+\geometry{textwidth=15cm,textheight=25cm}
+\usepackage[pdftex]{hyperref}
+\usepackage{url}
+
+% File usage: wherever it fits, the tex source shall be outsourced. use the \input command to include.
+
+\title{The Linux Cabinet Project\\--- Reference ---}
+\author{Jens Oliver John\\\nolinkurl{jens.o.john@gmail.com}\and Jan Sebastian Götte\\\nolinkurl{jsgoette@yahoo.de}}
+
+\hypersetup{bookmarks=true}
+
+\begin{document} \maketitle 
+
+\begin{abstract}
+This paper covers the main formal aspects of the Linux Cabinet Project having been launched on
+\begin{center}Tuesday, 16th day of February 2010,\end{center}
+whose intentions shall be hereby named as the improvement of the local IT cabinet's LAN's usefulness, secureness, handsomeness and integrity.
+\end{abstract}
+
+\tableofcontents \noindent
+
+\newpage \section{Preliminary remarks}
+\input{preliminaryRemarks.tex}
+
+\input{concept.tex}
+
+\input{planning.tex}
+
+\input{implementation.tex}
+
+\input{results.tex}
+ 
+\end{document}
